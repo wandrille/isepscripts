@@ -48,7 +48,10 @@ echo on recopie 1 dans 2
 cp blabla.txt ../ssdossier2
 
 cd ../ssdossier2
-
+for ((COUNTER=0; COUNTER <=10; COUNTER++))
+do
+echo "J'aime pas les gourdins" >> blabla.txt
+done
 
 #on affiche le contenu du fichier texte copié
 
